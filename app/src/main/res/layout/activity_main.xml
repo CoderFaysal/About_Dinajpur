@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#9AFBC6"
+        app:cardCornerRadius="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Dinajpur"
+            android:textSize="40dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#9A9A9A"
+        android:layout_marginTop="10dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginTop="10dp"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="350dp"
+                android:src="@drawable/dinajpur"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginVertical="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dinajpur district is a district in the Rangpur Division of northern Bangladesh. Dinajpur is the largest district among all sixteen northern districts of Bangladesh.\n\nHistory\n\nDinajpur was once a part of the ancient state of Pundravardhana. Devkot (now in India) which rotated as the capital of Lakhnauti was located 18 kilometres (11 mi) south of Dinajpur town. It is also called City of Maharajas.\nAn ancient engraved stone, believed to be from the Gupta era, was recovered from the bank of a pond near Sura Masjid in the Ghoraghat Upazila in Dinajpur in 8 October.\n\nBritish Colonial Period\n\nThe British administrative control in Dinajpur was established in 1786. Dinajpur was the biggest administrative district of undivided Bengal. In 1765, the British got the Dewani of Bengal and in 1772 an English District Collector and Chief of Revenue was appointed in Dinajpur. The area was then notorious for lawlessness. Mr. Marriott was Collector in 1786. Next to him, Mr. Red Fern and Mr. Vansittart were Collectors for short periods. The next Collector, Mr. Hatch, started to exercise judicial powers too. The District Magistrate's area at that time extended to Malda, Bagura, and Dinajpur. In the last decade of the 18th century, indigo plantation started in the district.\nThe district Dinajpur in British times included a greater portion of Bagura. Malda and parts of Rajshahi, Rangpur, and Purnea. At the time of Revenue Survey in 1857–1861, the total area of the district was 11,880 km2 (4,586 sq mi). Between 1795 and 1800, large tracts of land were transferred to Purnea, Rangpur and Rajshahi for administrative convenience and better enforcement of law and order. In 1833 again some estates were transferred to Bagura and Malda. In 1864–65, 1868 and 1870 further transfer of territory from Dinajpur to Malda and Bagura took place. Finally in 1897–98 the whole of Thana Mahadevpur was made over to Rajshahi. At that time, except Thakurgaon Sub division, the rest of Dinajpur district remained under the direct supervision of the collector.\nAt first, after its formation in 1856, the Dinajpur Municipality used to be run by a town committee presided over by the Deputy Magistrate. This was among the first 40 municipalities in Bengal at that time. Later in 1868, the 'District Town Act' commissioned a chairman of the municipality who replaced the Deputy Magistrate and given a similar rank as a district magistrate. Mr. Patterson was appointed the first chairman of Dinajpur Municipality in 1869.\n\nRecent history \n\nAt the time of Partition of India in 1947, part of greater Dinajpur district was included in West Bengal and it was named West Dinajpur district. People of the district took part in the Tebhaga movement and also had significant contribution in the War of Liberation of 1971.\n\nGeography\n\nDinajpur is bounded by Thakurgaon and Panchagarh districts in the north, Gaibandha and Joypurhat districts in the south, Nilphamari and Rangpur districts in the east, and the state of West Bengal, India in the west. The total area of the district is 3,437.98 km2.[3] The main rivers of the district are the Dhepa, the Punarbhaba, and the Atrai rivers.\nTotal area 3437.98 km2, located in between 25°10' and 26°04' north latitudes and in between 88°23' and 89°18' east longitudes.\n\nClimate \n\nDinajpur experiences a hot, wet and humid tropical climate. Under the Köppen climate classification, Dinajpur has a tropical wet and dry climate. The district has a distinct monsoonal season, with an annual average temperature of 25 °C (77 °F) and monthly means varying between 18 °C (64 °F) in January and 29 °C (84 °F) in August."
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginVertical="10dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
